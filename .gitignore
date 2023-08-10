@@ -1,8 +1,7 @@
+# Microsoft Office state file
+documentation/~$*.pptx
 
-# Yarn files
-.yarn/install-state.gz
-.yarn/build-state.yml
-
-# Yarn files
-.yarn/install-state.gz
-.yarn/build-state.yml
+# Meta files
+.DS_Store
+node_modules
+desktop.files.json
