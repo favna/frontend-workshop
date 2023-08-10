@@ -1,17 +1,15 @@
-# Containerization workshop
+# Frontend Fundamentals workshop
 
-## Presentation
+## Documentation
 
-- [Graduate Class October 2023 - Podman](containerization.pptx)
+All the documentation can be found in the [`documentation`](/documentation/) folder. In here you will find the
+PowerPoint presentation and other useful information.
 
 ## Exercises
 
-- [Exercise 2 - Your First Podman Container](exercise_1/README.md)
-- [Exercise 3 - Podman Compose](exercise_2/README.md)
-- [Exercise 4 - Load Balancing](exercise_3/README.md)
+All of the exercises are found in the [`exercises`](/exercises/) folder. Each exercise has its own folder and an answers
+folder.
 
-## Answers
+## Demos
 
-- [Exercise 2 - Your First Podman Container](exercise_1_answers/README.md)
-- [Exercise 3 - Podman Compose](exercise_2_answers/README.md)
-- [Exercise 4 - Load Balancing](exercise_3_answers/README.md)
+Any demos that are given only by the workshop trainer can be found in the [`demos`](/demos/) folder.

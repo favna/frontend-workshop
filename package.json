@@ -3,10 +3,13 @@
   "private": true,
   "devDependencies": {
     "@sapphire/prettier-config": "^1.4.5",
+    "live-server": "^1.2.2",
     "prettier": "^3.0.0"
   },
   "scripts": {
-    "format": "prettier --write ."
-  },
-  "packageManager": "yarn@3.6.1"
+    "format": "prettier --write .",
+    "demo:htmlcssjs": "npx live-server --port=8081 --host=localhost --open=demos/html-css-js",
+    "ex1": "npm install && npx live-server --port=8082 --host=localhost --open=exercises/1_are-you-allowed-to-drink",
+    "ex1:answers": "npm install && npx live-server --port=8083 --host=localhost --open=exercises/1_are-you-allowed-to-drink_answers"
+  }
 }
