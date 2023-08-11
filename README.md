@@ -13,3 +13,7 @@ folder.
 ## Demos
 
 Any demos that are given only by the workshop trainer can be found in the [`demos`](/demos/) folder.
+
+## Assets
+
+These are images used for the Powerpoint presentation and other assets.
