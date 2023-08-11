@@ -34,7 +34,7 @@ li {
 	background-color: darkgray;
 }
 
-.list-three {
+li .list-three {
 	color: purple;
 }
 
