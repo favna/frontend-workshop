@@ -2,6 +2,8 @@
 
 In this exercise we will style various pre-written HTML elements to make them look like the following image:
 
+![Exercise 2](./../../assets/finished-result-exercise-2.PNG)
+
 The challenge is to find the proper CSS styles to apply to the proper elements. You should not change the HTML in any
 way. You can reference the list of possible CSS styles here:
 <https://developer.mozilla.org/en-US/docs/Web/CSS/Reference>
