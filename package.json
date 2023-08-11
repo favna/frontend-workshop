@@ -10,6 +10,8 @@
 		"format": "npx prettier --write .",
 		"demo:htmlcssjs": "npx live-server --port=8081 --host=localhost --open=demos/html-css-js",
 		"ex1": "npm install && npx live-server --port=8082 --host=localhost --open=exercises/1_are-you-allowed-to-drink",
-		"ex1:answers": "npm install && npx live-server --port=8083 --host=localhost --open=exercises/1_are-you-allowed-to-drink_answers"
+		"ex1:answers": "npm install && npx live-server --port=8083 --host=localhost --open=exercises/1_are-you-allowed-to-drink_answers",
+		"ex2": "npm install && npx live-server --port=8082 --host=localhost --open=exercises/2_css-styling",
+		"ex2:answers": "npm install && npx live-server --port=8083 --host=localhost --open=exercises/2_css-styling_answers"
 	}
 }
