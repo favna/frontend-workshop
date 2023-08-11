@@ -34,3 +34,6 @@ The application should have the following requirements:
    `index.css` files in this folder are already set up for you.
 
 3. You should not need to use any JavaScript for this exercise, only CSS.
+
+4. You can keep the CSS code that is already provided in the `index.css` file. This is code that isn't relevant for this
+   exercise, but is here so your page is a bit easier to read.
