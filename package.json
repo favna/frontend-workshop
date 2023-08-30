@@ -6,9 +6,14 @@
 		"live-server": "^1.2.2",
 		"prettier": "^3.0.0"
 	},
+	"workspaces": [
+		"demos/*",
+		"exercises/*"
+	],
 	"scripts": {
 		"format": "npx prettier --write .",
 		"demo:htmlcssjs": "npx live-server --port=8081 --host=localhost --open=demos/html-css-js",
+		"demo:reacthelloworld": "npm run dev --workspace=demo-react-hello-world",
 		"ex1": "npm install && npx live-server --port=8082 --host=localhost --open=exercises/1_are-you-allowed-to-drink",
 		"ex1:answers": "npm install && npx live-server --port=8083 --host=localhost --open=exercises/1_are-you-allowed-to-drink_answers",
 		"ex2": "npm install && npx live-server --port=8082 --host=localhost --open=exercises/2_css-styling",
