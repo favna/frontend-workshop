@@ -5,7 +5,6 @@ document.getElementById('age').addEventListener('keyup', handleKeyUp);
 function handleKeyUp(event) {
 	const currentAge = event.target.valueAsNumber;
 
-	console.log(currentAge);
 	let canDrink = false;
 	if (!isNaN(currentAge) && currentAge >= 18) {
 		canDrink = true;
