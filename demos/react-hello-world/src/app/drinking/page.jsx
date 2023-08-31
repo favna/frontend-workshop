@@ -1,9 +1,9 @@
 'use client';
 
+import '@/styles/styles.css';
 import { useState } from 'react';
-import './styles.css';
 
-export default function App() {
+export default function CanDrink() {
 	const [canDrink, setCanDrink] = useState(false);
 
 	/** @param {KeyboardEvent} event The HTML event fired when a keypress goes up */
@@ -19,22 +19,15 @@ export default function App() {
 	}
 
 	return (
-		<html lang="en">
-			<head>
-				<meta charset="UTF-8" />
-				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-				<title>Are you allowed to drink?</title>
-			</head>
-			<body>
-				<div>
-					Are you allowed to drink? <span>{canDrink ? 'Yes' : 'No'}</span>
-				</div>
+		<section>
+			<div>
+				Are you allowed to drink? <span>{canDrink ? 'Yes' : 'No'}</span>
+			</div>
 
-				<form>
-					<label htmlFor="age">What is your age?</label>
-					<input id="age" type="number" onKeyUp={handleKeyUp} />
-				</form>
-			</body>
-		</html>
+			<form>
+				<label htmlFor="age">What is your age?</label>
+				<input id="age" type="number" onKeyUp={handleKeyUp} />
+			</form>
+		</section>
 	);
 }
