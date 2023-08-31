@@ -31,8 +31,8 @@ export default function App() {
 				</div>
 
 				<form>
-					<label for="age">What is your age?</label>
-					<input type="number" onKeyUp={handleKeyUp} />
+					<label htmlFor="age">What is your age?</label>
+					<input id="age" type="number" onKeyUp={handleKeyUp} />
 				</form>
 			</body>
 		</html>
