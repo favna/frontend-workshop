@@ -19,7 +19,7 @@
 		"ex2": "npm install && npx live-server --port=8082 --host=localhost --open=exercises/2_css-styling",
 		"ex2:answers": "npm install && npx live-server --port=8083 --host=localhost --open=exercises/2_css-styling_answers",
 		"ex3": "npm install && npm run dev --workspace=3_adding-an-about-me-page",
-		"ex3:answers": "npm install && npm run dev --workspace=3_adding-an-about-me-page-answers",
+		"ex3:answers": "npm install && npm run dev --workspace=3_adding-an-about-me-page_answers",
 		"ex4": "npm install && npm run dev --workspace=4_putting-it-all-together",
 		"ex4:answers": "npm install && npm run dev --workspace=4_putting-it-all-together-answers"
 	}
