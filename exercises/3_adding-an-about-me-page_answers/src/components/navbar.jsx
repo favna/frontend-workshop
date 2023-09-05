@@ -4,7 +4,7 @@ import Button from '@mui/material/Button';
 import Toolbar from '@mui/material/Toolbar';
 import NextLink from 'next/link';
 
-export default function Navbar() {
+export default function NavBar() {
 	return (
 		<Box sx={{ flexGrow: 1 }}>
 			<AppBar position="static" color="transparent">

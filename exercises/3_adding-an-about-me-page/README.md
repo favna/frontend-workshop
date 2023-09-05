@@ -30,13 +30,20 @@ graduate class so far and what you hope to learn in the coming weeks.
 
 ## Hints
 
+1. Ideally you will do this exercise by running the application locally. However, if you face issues doing this you can
+   follow this URL to do it online: https://codesandbox.io/p/sandbox/3-adding-an-about-me-page-693djz
+
+    > Note that Codesandbox will throw an error in the console that says:
+    > `Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Package subpath './server.edge' is not defined by "exports" in /workspace/node_modules/react-dom/package.json`.
+    > You can safely ignore this error, it does not affect this assignment and is a problem exclusive to Codesandbox.
+
 1. You must run the application as a dev server, use the following command to do so:
 
     ```bash
     npm run ex3
     ```
 
-2. If you wish to add a link to your about, for example to your personal website or LinkedIn then you can import the
+1. If you wish to add a link to your about, for example to your personal website or LinkedIn then you can import the
    `Link` component like so:
 
     ```js

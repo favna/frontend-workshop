@@ -23,17 +23,20 @@ The application should have the following requirements:
 
 ## Hints
 
-1. If you already have NodeJS installed then you can start a server with live reloading by running the following command
+1. Ideally you will do this exercise by running the application locally. However, if you face issues doing this you can
+   follow this URL to do it online: https://codesandbox.io/s/2-css-styling-dm4whl
+
+2. If you already have NodeJS installed then you can start a server with live reloading by running the following command
    in the root directory of this repository:
 
     ```bash
     npm run ex2
     ```
 
-2. It is recommended to download/clone this repository as a starting point for this exercise, the `index.html` and
+3. It is recommended to download/clone this repository as a starting point for this exercise, the `index.html` and
    `index.css` files in this folder are already set up for you.
 
-3. You should not need to use any JavaScript for this exercise, only CSS.
+4. You should not need to use any JavaScript for this exercise, only CSS.
 
-4. You can keep the CSS code that is already provided in the `index.css` file. This is code that isn't relevant for this
+5. You can keep the CSS code that is already provided in the `index.css` file. This is code that isn't relevant for this
    exercise, but is here so your page is a bit easier to read.
