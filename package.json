@@ -21,6 +21,6 @@
 		"ex3": "npm install && npm run dev --workspace=3_adding-an-about-me-page",
 		"ex3:answers": "npm install && npm run dev --workspace=3_adding-an-about-me-page_answers",
 		"ex4": "npm install && npm run dev --workspace=4_putting-it-all-together",
-		"ex4:answers": "npm install && npm run dev --workspace=4_putting-it-all-together-answers"
+		"ex4:answers": "npm install && npm run dev --workspace=4_putting-it-all-together_answers"
 	}
 }
