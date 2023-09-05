@@ -7,7 +7,7 @@ export default function NavBar() {
 	const pages = ['Home'];
 
 	return (
-		<AppBar position="static" sx={{ bgcolor: '#91002e' }}>
+		<AppBar position="static">
 			<Container maxWidth="xl">
 				<Toolbar disableGutters>
 					<MenuNavList pages={pages} />

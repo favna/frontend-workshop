@@ -1,14 +1,14 @@
 import type { Item } from '@/api/types';
 import { faker } from '@faker-js/faker';
 
-export const itemData = new Map<number, Item>([
+const itemData = new Map<number, Item>([
 	[
 		1,
 		{
 			id: 1,
 			name: faker.commerce.productName(),
 			price: faker.commerce.price(),
-			image: faker.image.urlLoremFlickr({ category: 'product' }),
+			image: faker.image.urlPicsumPhotos(),
 			description: faker.commerce.productDescription()
 		}
 	],
@@ -18,7 +18,7 @@ export const itemData = new Map<number, Item>([
 			id: 2,
 			name: faker.commerce.productName(),
 			price: faker.commerce.price(),
-			image: faker.image.urlLoremFlickr({ category: 'product' }),
+			image: faker.image.urlPicsumPhotos(),
 			description: faker.commerce.productDescription()
 		}
 	],
@@ -28,7 +28,7 @@ export const itemData = new Map<number, Item>([
 			id: 3,
 			name: faker.commerce.productName(),
 			price: faker.commerce.price(),
-			image: faker.image.urlLoremFlickr({ category: 'product' }),
+			image: faker.image.urlPicsumPhotos(),
 			description: faker.commerce.productDescription()
 		}
 	],
@@ -38,7 +38,7 @@ export const itemData = new Map<number, Item>([
 			id: 4,
 			name: faker.commerce.productName(),
 			price: faker.commerce.price(),
-			image: faker.image.urlLoremFlickr({ category: 'product' }),
+			image: faker.image.urlPicsumPhotos(),
 			description: faker.commerce.productDescription()
 		}
 	],
@@ -48,7 +48,7 @@ export const itemData = new Map<number, Item>([
 			id: 5,
 			name: faker.commerce.productName(),
 			price: faker.commerce.price(),
-			image: faker.image.urlLoremFlickr({ category: 'product' }),
+			image: faker.image.urlPicsumPhotos(),
 			description: faker.commerce.productDescription()
 		}
 	],
@@ -58,7 +58,7 @@ export const itemData = new Map<number, Item>([
 			id: 6,
 			name: faker.commerce.productName(),
 			price: faker.commerce.price(),
-			image: faker.image.urlLoremFlickr({ category: 'product' }),
+			image: faker.image.urlPicsumPhotos(),
 			description: faker.commerce.productDescription()
 		}
 	],
@@ -68,7 +68,7 @@ export const itemData = new Map<number, Item>([
 			id: 7,
 			name: faker.commerce.productName(),
 			price: faker.commerce.price(),
-			image: faker.image.urlLoremFlickr({ category: 'product' }),
+			image: faker.image.urlPicsumPhotos(),
 			description: faker.commerce.productDescription()
 		}
 	],
@@ -78,7 +78,7 @@ export const itemData = new Map<number, Item>([
 			id: 8,
 			name: faker.commerce.productName(),
 			price: faker.commerce.price(),
-			image: faker.image.urlLoremFlickr({ category: 'product' }),
+			image: faker.image.urlPicsumPhotos(),
 			description: faker.commerce.productDescription()
 		}
 	],
@@ -88,7 +88,7 @@ export const itemData = new Map<number, Item>([
 			id: 9,
 			name: faker.commerce.productName(),
 			price: faker.commerce.price(),
-			image: faker.image.urlLoremFlickr({ category: 'product' }),
+			image: faker.image.urlPicsumPhotos(),
 			description: faker.commerce.productDescription()
 		}
 	],
@@ -98,8 +98,32 @@ export const itemData = new Map<number, Item>([
 			id: 10,
 			name: faker.commerce.productName(),
 			price: faker.commerce.price(),
-			image: faker.image.urlLoremFlickr({ category: 'product' }),
+			image: faker.image.urlPicsumPhotos(),
+			description: faker.commerce.productDescription()
+		}
+	],
+	[
+		11,
+		{
+			id: 11,
+			name: faker.commerce.productName(),
+			price: faker.commerce.price(),
+			image: faker.image.urlPicsumPhotos(),
+			description: faker.commerce.productDescription()
+		}
+	],
+	[
+		12,
+		{
+			id: 12,
+			name: faker.commerce.productName(),
+			price: faker.commerce.price(),
+			image: faker.image.urlPicsumPhotos(),
 			description: faker.commerce.productDescription()
 		}
 	]
 ]);
+
+Object.freeze(itemData);
+
+export { itemData };
