@@ -3,7 +3,7 @@
 import '@/styles/styles.css';
 import { useRef } from 'react';
 
-export default function Ref() {
+export default function PageWithRef() {
 	const el = useRef(null);
 
 	function log() {

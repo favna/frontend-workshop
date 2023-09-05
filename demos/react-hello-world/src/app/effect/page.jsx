@@ -3,7 +3,7 @@
 import '@/styles/styles.css';
 import { useState, useEffect } from 'react';
 
-export default function Effect() {
+export default function CounterPage() {
 	const [count, setCount] = useState(0);
 
 	useEffect(() => {
