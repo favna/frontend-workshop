@@ -12,9 +12,21 @@ You can reference the documentation of Material-UI here: <https://mui.com/materi
 
 The application should have the following requirements:
 
--   The application should be a web application
 -   The about me should tell us something about yourself
 -   Try to use some Material-UI components
+
+## Advanced assignment
+
+If you're already done with the assignment and we have not yet continued the workshop to the next topic here is an
+advanced assignment that you can pick up.
+
+As you will have noticed the web application has a "home" page and an "about" page. For the advanced assignment we want
+you to add another page, called "review". On this page you will write a short review about your experience with the
+graduate class so far and what you hope to learn in the coming weeks.
+
+-   Start by adding a link to the review page to the right of the button for the about page.
+-   Add the review page and make sure you can navigate to it
+-   Write a review about your experience with the graduate class so far and what you hope to learn in the coming weeks
 
 ## Hints
 
