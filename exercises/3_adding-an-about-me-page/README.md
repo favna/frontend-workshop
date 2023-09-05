@@ -37,13 +37,13 @@ graduate class so far and what you hope to learn in the coming weeks.
     > `Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Package subpath './server.edge' is not defined by "exports" in /workspace/node_modules/react-dom/package.json`.
     > You can safely ignore this error, it does not affect this assignment and is a problem exclusive to Codesandbox.
 
-1. You must run the application as a dev server, use the following command to do so:
+2. You can run the application as a dev server, use the following command to do so:
 
     ```bash
     npm run ex3
     ```
 
-1. If you wish to add a link to your about, for example to your personal website or LinkedIn then you can import the
+3. If you wish to add a link to your about, for example to your personal website or LinkedIn then you can import the
    `Link` component like so:
 
     ```js
