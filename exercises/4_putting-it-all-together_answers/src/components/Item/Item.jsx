@@ -11,18 +11,18 @@ import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 
 /** @param {import('../../api/types').Item} item */
-export default function Item(item) {
+export default function Item(props) {
 	const router = useRouter();
 
-	const routeForItem = `/item/${item.id}`;
+	const routeForItem = `/item/${props.item.id}`;
 
 	return (
 		<Card raised>
 			<CardActionArea>
-				<CardMedia component="img" height="260" image={item.image} alt={item.name} onClick={() => router.push(routeForItem)} />
+				<CardMedia component="img" height="260" image={props.item.image} alt={props.item.name} onClick={() => router.push(routeForItem)} />
 				<CardContent>
 					<Typography variant="body2" color="text.secondary" noWrap>
-						{item.name}
+						{props.item.name}
 					</Typography>
 				</CardContent>
 			</CardActionArea>
@@ -31,7 +31,7 @@ export default function Item(item) {
 					View
 				</Button>
 				<Typography variant="subtitle2" color="text.secondary" align="right">
-					${item.price}
+					${props.item.price}
 				</Typography>
 			</CardActions>
 		</Card>
