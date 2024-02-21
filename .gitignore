@@ -5,3 +5,9 @@ documentation/~$*.pptx
 .DS_Store
 node_modules
 desktop.files.json
+
+dist/
+
+# Yarn files
+.yarn/install-state.gz
+.yarn/build-state.yml
