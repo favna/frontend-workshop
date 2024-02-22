@@ -5,6 +5,14 @@ __metadata:
   version: 8
   cacheKey: 10c0
 
+"1_are-you-allowed-to-drink@workspace:exercises/1_are-you-allowed-to-drink":
+  version: 0.0.0-use.local
+  resolution: "1_are-you-allowed-to-drink@workspace:exercises/1_are-you-allowed-to-drink"
+  dependencies:
+    vite: "npm:^5.1.4"
+  languageName: unknown
+  linkType: soft
+
 "3_adding-an-about-me-page@workspace:exercises/3_adding-an-about-me-page":
   version: 0.0.0-use.local
   resolution: "3_adding-an-about-me-page@workspace:exercises/3_adding-an-about-me-page"
