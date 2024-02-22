@@ -25,12 +25,12 @@ The application should have the following requirements:
 
 1. You can open "index.html" in your preferred browser to use the application, alternatively you can go to the following
    URL for a development environment:
-   <https://stackblitz.com/github/favna/frontend-workshop/tree/main/exercises/1_are-you-allowed-to-drink>
+   <https://stackblitz.com/github/favna/frontend-workshop/tree/main/exercises/2_css-styling>
 
-3. It is recommended to download/clone this repository as a starting point for this exercise, the `index.html` and
+2. It is recommended to download/clone this repository as a starting point for this exercise, the `index.html` and
    `index.css` files in this folder are already set up for you.
 
-4. You should not need to use any JavaScript for this exercise, only CSS.
+3. You should not need to use any JavaScript for this exercise, only CSS.
 
-5. You can keep the CSS code that is already provided in the `index.css` file. This is code that isn't relevant for this
+4. You can keep the CSS code that is already provided in the `index.css` file. This is code that isn't relevant for this
    exercise, but is here so your page is a bit easier to read.

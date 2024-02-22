@@ -13,15 +13,7 @@
 		"format": "yarn prettier --write .",
 		"demo:htmljs": "yarn workspace html-js run dev",
 		"demo:css": "yarn workspace css run dev",
-		"demo:react": "yarn workspace react run dev",
-		"ex1": "npx live-server --port=8082 --host=localhost --open=exercises/1_are-you-allowed-to-drink",
-		"ex1:answers": "npx live-server --port=8083 --host=localhost --open=exercises/1_are-you-allowed-to-drink_answers",
-		"ex2": "npx live-server --port=8082 --host=localhost --open=exercises/2_css-styling",
-		"ex2:answers": "npx live-server --port=8083 --host=localhost --open=exercises/2_css-styling_answers",
-		"ex3": "npm run dev --workspace=3_adding-an-about-me-page",
-		"ex3:answers": "npm run dev --workspace=3_adding-an-about-me-page_answers",
-		"ex4": "npm run dev --workspace=4_putting-it-all-together",
-		"ex4:answers": "npm run dev --workspace=4_putting-it-all-together_answers"
+		"demo:react": "yarn workspace react run dev"
 	},
 	"packageManager": "yarn@4.1.0"
 }

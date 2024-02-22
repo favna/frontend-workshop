@@ -71,9 +71,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"4_putting-it-all-together@workspace:exercises/4_putting-it-all-together":
+"4_putting-it-all-together-old@workspace:exercises/4_putting-it-all-together-old":
   version: 0.0.0-use.local
-  resolution: "4_putting-it-all-together@workspace:exercises/4_putting-it-all-together"
+  resolution: "4_putting-it-all-together-old@workspace:exercises/4_putting-it-all-together-old"
   dependencies:
     "@emotion/react": "npm:^11.11.1"
     "@emotion/styled": "npm:^11.11.0"
@@ -93,9 +93,23 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"4_putting-it-all-together_answers@workspace:exercises/4_putting-it-all-together_answers":
+"4_putting-it-all-together@workspace:exercises/4_putting-it-all-together":
   version: 0.0.0-use.local
-  resolution: "4_putting-it-all-together_answers@workspace:exercises/4_putting-it-all-together_answers"
+  resolution: "4_putting-it-all-together@workspace:exercises/4_putting-it-all-together"
+  dependencies:
+    "@faker-js/faker": "npm:^8.1.0"
+    "@types/react": "npm:^18.2.56"
+    "@types/react-dom": "npm:^18.2.19"
+    "@vitejs/plugin-react": "npm:^4.2.1"
+    react: "npm:^18.2.0"
+    react-dom: "npm:^18.2.0"
+    vite: "npm:^5.1.4"
+  languageName: unknown
+  linkType: soft
+
+"4_putting-it-all-together_answers-old@workspace:exercises/4_putting-it-all-together_answers-old":
+  version: 0.0.0-use.local
+  resolution: "4_putting-it-all-together_answers-old@workspace:exercises/4_putting-it-all-together_answers-old"
   dependencies:
     "@emotion/react": "npm:^11.11.1"
     "@emotion/styled": "npm:^11.11.0"
