@@ -32,12 +32,39 @@
 html,
 body {
 	max-width: 100vw;
+	height: 100vh;
 	overflow-x: hidden;
 }
 
 body {
 	color: rgb(var(--foreground-rgb));
 	background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	font-size: 1.5rem;
+	font-family: Arial, Helvetica, sans-serif;
+	gap: 1rem;
+	align-items: center;
+	padding: 6rem;
+	padding-top: 0px;
+	min-height: 100vh;
+}
+
+label {
+	padding-right: 1rem;
+}
+
+form {
+	display: flex;
+	align-content: center;
+}
+
+input {
+	height: 1.5rem;
+	min-height: 1.5rem;
 }
 
 @media (prefers-color-scheme: dark) {
