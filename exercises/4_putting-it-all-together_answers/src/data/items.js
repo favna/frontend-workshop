@@ -1,14 +1,13 @@
-import type { Item } from '@/api/types';
 import { faker } from '@faker-js/faker';
 
-const itemData = new Map<number, Item>([
+const itemData = new Map([
 	[
 		1,
 		{
 			id: 1,
 			name: faker.commerce.productName(),
 			price: faker.commerce.price(),
-			image: faker.image.urlPicsumPhotos(),
+			image: faker.image.urlPicsumPhotos({ height: 400 }),
 			description: faker.commerce.productDescription()
 		}
 	],
@@ -18,7 +17,7 @@ const itemData = new Map<number, Item>([
 			id: 2,
 			name: faker.commerce.productName(),
 			price: faker.commerce.price(),
-			image: faker.image.urlPicsumPhotos(),
+			image: faker.image.urlPicsumPhotos({ height: 400 }),
 			description: faker.commerce.productDescription()
 		}
 	],
@@ -28,7 +27,7 @@ const itemData = new Map<number, Item>([
 			id: 3,
 			name: faker.commerce.productName(),
 			price: faker.commerce.price(),
-			image: faker.image.urlPicsumPhotos(),
+			image: faker.image.urlPicsumPhotos({ height: 400 }),
 			description: faker.commerce.productDescription()
 		}
 	],
@@ -38,7 +37,7 @@ const itemData = new Map<number, Item>([
 			id: 4,
 			name: faker.commerce.productName(),
 			price: faker.commerce.price(),
-			image: faker.image.urlPicsumPhotos(),
+			image: faker.image.urlPicsumPhotos({ height: 400 }),
 			description: faker.commerce.productDescription()
 		}
 	],
@@ -48,7 +47,7 @@ const itemData = new Map<number, Item>([
 			id: 5,
 			name: faker.commerce.productName(),
 			price: faker.commerce.price(),
-			image: faker.image.urlPicsumPhotos(),
+			image: faker.image.urlPicsumPhotos({ height: 400 }),
 			description: faker.commerce.productDescription()
 		}
 	],
@@ -58,7 +57,7 @@ const itemData = new Map<number, Item>([
 			id: 6,
 			name: faker.commerce.productName(),
 			price: faker.commerce.price(),
-			image: faker.image.urlPicsumPhotos(),
+			image: faker.image.urlPicsumPhotos({ height: 400 }),
 			description: faker.commerce.productDescription()
 		}
 	],
@@ -68,7 +67,7 @@ const itemData = new Map<number, Item>([
 			id: 7,
 			name: faker.commerce.productName(),
 			price: faker.commerce.price(),
-			image: faker.image.urlPicsumPhotos(),
+			image: faker.image.urlPicsumPhotos({ height: 400 }),
 			description: faker.commerce.productDescription()
 		}
 	],
@@ -78,7 +77,7 @@ const itemData = new Map<number, Item>([
 			id: 8,
 			name: faker.commerce.productName(),
 			price: faker.commerce.price(),
-			image: faker.image.urlPicsumPhotos(),
+			image: faker.image.urlPicsumPhotos({ height: 400 }),
 			description: faker.commerce.productDescription()
 		}
 	],
@@ -88,7 +87,7 @@ const itemData = new Map<number, Item>([
 			id: 9,
 			name: faker.commerce.productName(),
 			price: faker.commerce.price(),
-			image: faker.image.urlPicsumPhotos(),
+			image: faker.image.urlPicsumPhotos({ height: 400 }),
 			description: faker.commerce.productDescription()
 		}
 	],
@@ -98,7 +97,7 @@ const itemData = new Map<number, Item>([
 			id: 10,
 			name: faker.commerce.productName(),
 			price: faker.commerce.price(),
-			image: faker.image.urlPicsumPhotos(),
+			image: faker.image.urlPicsumPhotos({ height: 400 }),
 			description: faker.commerce.productDescription()
 		}
 	],
@@ -108,7 +107,7 @@ const itemData = new Map<number, Item>([
 			id: 11,
 			name: faker.commerce.productName(),
 			price: faker.commerce.price(),
-			image: faker.image.urlPicsumPhotos(),
+			image: faker.image.urlPicsumPhotos({ height: 400 }),
 			description: faker.commerce.productDescription()
 		}
 	],
@@ -118,7 +117,7 @@ const itemData = new Map<number, Item>([
 			id: 12,
 			name: faker.commerce.productName(),
 			price: faker.commerce.price(),
-			image: faker.image.urlPicsumPhotos(),
+			image: faker.image.urlPicsumPhotos({ height: 400 }),
 			description: faker.commerce.productDescription()
 		}
 	]
