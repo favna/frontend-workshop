@@ -23,15 +23,9 @@ The application should have the following requirements:
 
 ## Hints
 
-1. Ideally you will do this exercise by running the application locally. However, if you face issues doing this you can
-   follow this URL to do it online: https://codesandbox.io/s/2-css-styling-dm4whl
-
-2. If you already have NodeJS installed then you can start a server with live reloading by running the following command
-   in the root directory of this repository:
-
-    ```bash
-    npm run ex2
-    ```
+1. You can open "index.html" in your preferred browser to use the application, alternatively you can go to the following
+   URL for a development environment:
+   <https://stackblitz.com/github/favna/frontend-workshop/tree/main/exercises/1_are-you-allowed-to-drink>
 
 3. It is recommended to download/clone this repository as a starting point for this exercise, the `index.html` and
    `index.css` files in this folder are already set up for you.

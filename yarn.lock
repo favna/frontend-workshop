@@ -5,9 +5,33 @@ __metadata:
   version: 8
   cacheKey: 10c0
 
+"1_are-you-allowed-to-drink-answers@workspace:exercises/1_are-you-allowed-to-drink_answers":
+  version: 0.0.0-use.local
+  resolution: "1_are-you-allowed-to-drink-answers@workspace:exercises/1_are-you-allowed-to-drink_answers"
+  dependencies:
+    vite: "npm:^5.1.4"
+  languageName: unknown
+  linkType: soft
+
 "1_are-you-allowed-to-drink@workspace:exercises/1_are-you-allowed-to-drink":
   version: 0.0.0-use.local
   resolution: "1_are-you-allowed-to-drink@workspace:exercises/1_are-you-allowed-to-drink"
+  dependencies:
+    vite: "npm:^5.1.4"
+  languageName: unknown
+  linkType: soft
+
+"2_css-styling@workspace:exercises/2_css-styling":
+  version: 0.0.0-use.local
+  resolution: "2_css-styling@workspace:exercises/2_css-styling"
+  dependencies:
+    vite: "npm:^5.1.4"
+  languageName: unknown
+  linkType: soft
+
+"2_css-styling_answers@workspace:exercises/2_css-styling_answers":
+  version: 0.0.0-use.local
+  resolution: "2_css-styling_answers@workspace:exercises/2_css-styling_answers"
   dependencies:
     vite: "npm:^5.1.4"
   languageName: unknown
