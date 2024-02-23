@@ -32,7 +32,8 @@ However, if you face issues doing this you can follow this URL to do it online:
 
 ## Advanced assignment
 
-If you're already done with the assignment and there is still time left here is a more advanced setup for this exercise.
+If you're already done with the assignment and there is still time left, or if you want to do this in your own time
+later, here is a more advanced setup for this exercise
 
 As you will have noticed the web application the data comes from the `src/data/items.js` file. This is a simple Map of
 all the data. In a normal application this data would come from an API. In this advanced assignment you will create a
