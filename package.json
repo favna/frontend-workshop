@@ -15,5 +15,5 @@
 		"demo:css": "yarn workspace css run dev",
 		"demo:react": "yarn workspace react run dev"
 	},
-	"packageManager": "yarn@4.1.0"
+	"packageManager": "yarn@4.1.1"
 }
