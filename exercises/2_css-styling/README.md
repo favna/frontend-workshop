@@ -12,6 +12,8 @@ way. You can reference the list of possible CSS styles here:
 
 The application should have the following requirements:
 
+-   We will do this exercise in Stackblitz, start by opening this URL:
+    <https://stackblitz.com/github/favna/frontend-workshop/tree/main/exercises/2_css-styling>
 -   The application should be a web application
 -   The application HTML code should not be changed
 -   The styling should be in the `index.css` file
@@ -23,14 +25,10 @@ The application should have the following requirements:
 
 ## Hints
 
-1. You can open "index.html" in your preferred browser to use the application, alternatively you can go to the following
-   URL for a development environment:
-   <https://stackblitz.com/github/favna/frontend-workshop/tree/main/exercises/2_css-styling>
-
-2. It is recommended to download/clone this repository as a starting point for this exercise, the `index.html` and
+1. It is recommended to download/clone this repository as a starting point for this exercise, the `index.html` and
    `index.css` files in this folder are already set up for you.
 
-3. You should not need to use any JavaScript for this exercise, only CSS.
+2. You should not need to use any JavaScript for this exercise, only CSS.
 
-4. You can keep the CSS code that is already provided in the `index.css` file. This is code that isn't relevant for this
+3. You can keep the CSS code that is already provided in the `index.css` file. This is code that isn't relevant for this
    exercise, but is here so your page is a bit easier to read.
