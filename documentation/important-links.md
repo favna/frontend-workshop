@@ -1,15 +1,27 @@
 # Useful links
 
--   HTML Elements reference: <https://developer.mozilla.org/en-US/docs/Web/HTML/Element>
+- HTML Elements reference:
 
--   CSS styles reference: <https://developer.mozilla.org/en-US/docs/Web/CSS/Reference>
+  - W3Schools: <https://www.w3schools.com/html/html_elements.asp>
 
--   CSS selectors reference: <https://www.w3schools.com/cssref/css_selectors.php>
+  - MDN: <https://developer.mozilla.org/en-US/docs/Web/HTML/Element>
 
--   JavaScript reference: <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference>
+- CSS styles reference:
 
--   React reference: <https://react.dev/reference/react>
+  - W3Schools: <https://www.w3schools.com/css/css_syntax.asp>
 
--   Material-UI Documentation: <https://mui.com/material-ui/>
+  - MDN: <https://developer.mozilla.org/en-US/docs/Web/CSS/Reference>
 
--   NextJS Documentation: <https://nextjs.org/docs>
+- CSS selectors reference:
+
+  - W3Schools: <https://www.w3schools.com/css/css_selectors.asp>
+
+  - MDN: <https://www.w3schools.com/cssref/css_selectors.php>
+
+- JavaScript reference: <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference>
+
+- React reference: <https://react.dev/reference/react>
+
+- Material-UI Documentation: <https://mui.com/material-ui/>
+
+- NextJS Documentation: <https://nextjs.org/docs>
