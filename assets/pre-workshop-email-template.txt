@@ -1,0 +1,30 @@
+Hello all!
+ 
+Next week on September 20th you will all be attending the Frontend Fundamentals workshop taught by myself, Jeroen Claassens, and my colleague Martijn van Dueren den Hollander. Before the day of the workshop we would like to ask you all to follow a few steps to make sure you are prepared.
+
+This session will include exercises for you to make. We very strongly recommend physical attendance as giving support will be a lot harder if you're calling in remote. That said, for those who absolutely have no other option, a Teams link will follow after this mail. 
+Please download and install NodeJS on your laptops. You can find the installer here: https://nodejs.org/en/download, or alternatively follow this link to directly download the Windows installer: https://nodejs.org/dist/v18.17.1/node-v18.17.1-x64.msi. Instructions for this installer below.
+Please clone or download the files from this repository to your laptop: https://github.com/favna/frontend-workshop. Instructions for doing this below.
+ 
+--------------------------------------------------------------------------------------------------------------
+
+Installing NodeJS:
+
+NodeJS Installation is all pretty straightforward, but make sure to select these options shown in attachment "NodeJS-1" and "NodeJS-2" along the way. Open these screenshots and reference them during the installation.
+
+After installing NodeJS:
+
+After you have finished installing NodeJS you need to execute a few commands in a terminal to make sure that everything works well. Open a terminal (command prompt, powershell, etc) **as administrator** and execute the following commands:
+
+npm config set -L user strict-ssl=false
+npm config set -L user legacy-peer-deps=true
+npm config set -L user audit=false
+
+Downloading GitHub repo:
+
+You can follow these steps to download the GitHub repo. If you know how to clone with git then feel free to do that instead of following these steps.
+
+Step 0: Go to the URL mentioned above
+Step 1: Click the green icon shown in "GitHub-Step-1"
+Step 2: Click the "Local" tab shown in "GitHub-Step-2"
+Step 3: Click the "Download ZIP" button shown in "GitHub-Step-3"
