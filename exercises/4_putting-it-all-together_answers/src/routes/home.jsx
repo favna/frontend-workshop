@@ -11,7 +11,7 @@ export default function Home() {
 
 	return (
 		<div className="home-card-container">
-			{[...itemData.values()].map((item) => (
+			{itemData.map((item) => (
 				<div className="home-card" key={item.id}>
 					<h1 className="home-header">{item.name}</h1>
 					<img onClick={() => handleNavigate(item.id)} className="image" src={item.image} alt={`picture depicting ${item.name}`} />
