@@ -20,6 +20,8 @@ npm config set -L user strict-ssl=false
 npm config set -L user legacy-peer-deps=true
 npm config set -L user audit=false
 
+You can confirm the commands are correct by checking the file: `C:\users\<your user>\.npmrc` (replace <your user> with your username). This is a hidden file, so make sure to enable showing of hidden files in File Explorer.
+
 Downloading GitHub repo:
 
 You can follow these steps to download the GitHub repo. If you know how to clone with git then feel free to do that instead of following these steps.
