@@ -7,16 +7,13 @@ export const Route = createFileRoute('/props')({
 function Props() {
   return (
     <>
-      <BalanceToTheForce firstName="Anakin" lastName="Skywalker" />
+      <Button onClick={() => console.log('Clicked!')} label="Click me!" />
     </>
   )
 }
 
-function BalanceToTheForce(props) {
+function Button(props) {
   return (
-    <p>
-      The person who was supposed to bring balance to the force was{' '}
-      {props.firstName} {props.lastName}
-    </p>
+    <button onClick={props.handleClick}>{props.label}</button>
   )
 }
