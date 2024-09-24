@@ -1,14 +1,14 @@
 {
-  "name": "1_are-you-allowed-to-drink-answers",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "devDependencies": {
-    "vite": "^5.1.4"
-  }
+	"name": "1_are-you-allowed-to-drink-answers",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"devDependencies": {
+		"vite": "^5.4.7"
+	}
 }

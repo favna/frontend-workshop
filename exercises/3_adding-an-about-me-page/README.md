@@ -19,8 +19,8 @@ The application should have the following requirements:
     npm install && npm run dev
     ```
 
-However, if you face issues doing this you can follow this URL to do it
-online: <https://stackblitz.com/github/favna/frontend-workshop/tree/main/exercises/3_adding-an-about-me-page>
+However, if you face issues doing this you can follow this URL to do it online:
+<https://stackblitz.com/github/favna/frontend-workshop/tree/main/exercises/3_adding-an-about-me-page>
 
 ## Advanced assignment
 

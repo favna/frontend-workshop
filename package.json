@@ -3,17 +3,16 @@
 	"private": true,
 	"devDependencies": {
 		"@sapphire/prettier-config": "^2.0.0",
-		"prettier": "^3.1.1"
+		"prettier": "^3.3.3"
 	},
 	"workspaces": [
 		"demos/*",
 		"exercises/*"
 	],
 	"scripts": {
-		"format": "yarn prettier --write .",
-		"demo:htmljs": "yarn workspace html-js run dev",
-		"demo:css": "yarn workspace css run dev",
-		"demo:react": "yarn workspace react run dev"
-	},
-	"packageManager": "yarn@4.1.1"
+		"format": "npx prettier --write .",
+		"demo:htmljs": "npm run dev --workspace=html-js",
+		"demo:css": "npm run dev --workspace=css",
+		"demo:react": "npm run dev --workspace=react"
+	}
 }
