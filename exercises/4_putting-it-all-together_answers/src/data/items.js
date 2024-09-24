@@ -73,7 +73,6 @@ export const itemData = [
 		description: faker.commerce.productDescription()
 	},
 
-	10,
 	{
 		id: 10,
 		name: faker.commerce.productName(),
@@ -82,7 +81,6 @@ export const itemData = [
 		description: faker.commerce.productDescription()
 	},
 
-	11,
 	{
 		id: 11,
 		name: faker.commerce.productName(),
@@ -91,7 +89,6 @@ export const itemData = [
 		description: faker.commerce.productDescription()
 	},
 
-	12,
 	{
 		id: 12,
 		name: faker.commerce.productName(),
