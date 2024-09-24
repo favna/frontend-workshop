@@ -7,3 +7,5 @@ node_modules
 desktop.files.json
 
 dist/
+
+vite.config.js.timestamp-*

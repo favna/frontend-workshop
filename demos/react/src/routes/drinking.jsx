@@ -1,30 +1,35 @@
-import { useState } from 'react';
+import { createFileRoute } from '@tanstack/react-router'
+import { useState } from 'react'
 
-export default function CanDrink() {
-	const [canDrink, setCanDrink] = useState(false);
+export const Route = createFileRoute('/drinking')({
+  component: Drinking,
+})
 
-	/** @param {KeyboardEvent} event The HTML event fired when a keypress goes up */
-	function handleKeyUp(event) {
-		const currentAge = event.target.valueAsNumber;
+function Drinking() {
+  const [canDrink, setCanDrink] = useState(false)
 
-		let newCanDrink = false;
-		if (!isNaN(currentAge) && currentAge >= 18) {
-			newCanDrink = true;
-		}
+  /** @param {KeyboardEvent} event The HTML event fired when a keypress goes up */
+  function handleKeyUp(event) {
+    const currentAge = event.target.valueAsNumber
 
-		setCanDrink(newCanDrink);
-	}
+    let newCanDrink = false
+    if (!isNaN(currentAge) && currentAge >= 18) {
+      newCanDrink = true
+    }
 
-	return (
-		<>
-			<div>
-				Are you allowed to drink? <span>{canDrink ? 'Yes' : 'No'}</span>
-			</div>
+    setCanDrink(newCanDrink)
+  }
 
-			<form>
-				<label htmlFor="age">What is your age?</label>
-				<input id="age" type="number" onKeyUp={handleKeyUp} />
-			</form>
-		</>
-	);
+  return (
+    <>
+      <div>
+        Are you allowed to drink? <span>{canDrink ? 'Yes' : 'No'}</span>
+      </div>
+
+      <form>
+        <label htmlFor="age">What is your age?</label>
+        <input id="age" type="number" onKeyUp={handleKeyUp} />
+      </form>
+    </>
+  )
 }

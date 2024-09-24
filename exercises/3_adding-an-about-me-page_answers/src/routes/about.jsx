@@ -1,6 +1,12 @@
 import './about.css';
 
-export default function AboutMePage() {
+import { createFileRoute } from '@tanstack/react-router';
+
+export const Route = createFileRoute('/about')({
+	component: AboutMe
+});
+
+function AboutMe() {
 	return (
 		<div className="about-me">
 			<div>

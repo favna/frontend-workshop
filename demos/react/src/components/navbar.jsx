@@ -1,12 +1,14 @@
 import './navbar.css';
-import { Link } from 'react-router-dom';
 
-export default function NavBar() {
+import { Link } from '@tanstack/react-router';
+
+export function NavBar() {
 	const pages = ['home', 'drinking', 'effect', 'lists', 'props', 'ref', 'state'];
+
 	return (
 		<nav>
-			{pages.map((page, index) => (
-				<Link key={index} to={page === 'home' ? '/' : `/${page}`}>
+			{pages.map((page) => (
+				<Link key={page} to={page === 'home' ? '/' : `/${page}`}>
 					<button className="nav-button">{page}</button>
 				</Link>
 			))}

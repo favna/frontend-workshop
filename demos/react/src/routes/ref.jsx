@@ -1,18 +1,23 @@
-import { useRef } from 'react';
+import { useRef } from 'react'
+import { createFileRoute } from '@tanstack/react-router'
 
-export default function PageWithRef() {
-	const el = useRef(null);
+export const Route = createFileRoute('/ref')({
+  component: Refs,
+})
 
-	function log() {
-		if (el.current) {
-			alert(el.current.innerText);
-		}
-	}
+function Refs() {
+  const el = useRef(null)
 
-	return (
-		<>
-			<h1 ref={el}>Element with a ref</h1>
-			<button onClick={log}>Click me to get an alert!</button>
-		</>
-	);
+  function log() {
+    if (el.current) {
+      alert(el.current.innerText)
+    }
+  }
+
+  return (
+    <>
+      <h1 ref={el}>Element with a ref</h1>
+      <button onClick={log}>Click me to get an alert!</button>
+    </>
+  )
 }

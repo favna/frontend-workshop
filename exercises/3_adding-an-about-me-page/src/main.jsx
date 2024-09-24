@@ -1,22 +1,22 @@
+import './globals.css';
+
+import { RouterProvider, createRouter } from '@tanstack/react-router';
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import './index.css';
-import NavBar from './navbar';
-import About from './routes/about';
-import Home from './routes/home';
 
-createRoot(document.getElementById('root')).render(
-	<StrictMode>
-		<BrowserRouter>
-			<NavBar />
+// Import the generated route tree
+import { routeTree } from './routeTree.gen';
 
-			<main>
-				<Routes>
-					<Route path="/about" element={<About />} />
-					<Route path="*" element={<Home />} />
-				</Routes>
-			</main>
-		</BrowserRouter>
-	</StrictMode>
-);
+// Create a new router instance
+const router = createRouter({ routeTree });
+
+// Render the app
+const rootElement = document.getElementById('root');
+if (!rootElement.innerHTML) {
+	const root = createRoot(rootElement);
+	root.render(
+		<StrictMode>
+			<RouterProvider router={router} />
+		</StrictMode>
+	);
+}

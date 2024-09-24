@@ -1,13 +1,17 @@
-export default function PageWithLists() {
-	const someList = ['one', 'two', 'three'];
+import { createFileRoute } from '@tanstack/react-router'
 
-	return (
-		<>
-			<div>
-				{someList.map((item, index) => (
-					<div key={index}>{item}</div>
-				))}
-			</div>
-		</>
-	);
+export const Route = createFileRoute('/lists')({
+  component: Lists,
+})
+
+function Lists() {
+  const someList = ['one', 'two', 'three']
+
+  return (
+    <div>
+      {someList.map((item) => (
+        <div key={item}>{item}</div>
+      ))}
+    </div>
+  )
 }
