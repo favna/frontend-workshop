@@ -1,0 +1,34 @@
+Hallo allemaal!
+
+Volgende week, op maandag 24 maart, zullen jullie allemaal de Frontend Fundamentals workshop krijgen van mij en Martijn van Dueren den Hollander geven. Voor de dag van de workshop willen we jullie allemaal vragen om een paar stappen te volgen om ervoor te zorgen dat jullie voorbereid zijn.
+
+Deze sessie zal praktische oefeningen bevatten die je moet maken. Voor het middagprogramma is het handig als je voorafgaand aan de les nog een aantal stappen uitvoert. Let op dat je hier admin rechten voor nodig hebt. Als het goed is hebben jullie inmiddels allemaal Long Term Access aangezien we dat bij de kick off hebben aangevraag
+
+1.	Download en installeer NodeJS op je laptops. Je kunt het installatieprogramma hier vinden: https://nodejs.org/en/download, of volg deze link om het Windows-installatieprogramma rechtstreeks te downloaden: https://nodejs.org/dist/v22.14.0/node-v22.14.0-x64.msi.
+Instructies voor dit installatieprogramma vind je hieronder.
+2.	Clone of download de bestanden van deze repository naar uw laptop: https://github.com/favna/frontend-workshop. Instructies hiervoor vindt je hieronder.
+
+--------------------------------------------------------------------------------------------------------------
+
+NodeJS installeren:
+
+De installatie van NodeJS is vrij eenvoudig, maar zorg ervoor dat je de opties selecteert die worden weergegeven in bijlage "NodeJS-1" en "NodeJS-2" tijdens het proces. Open deze screenshots en raadpleeg ze tijdens de installatie.
+
+Na de installatie van NodeJS:
+
+Nadat je klaar bent met de installatie van NodeJS, moet je een paar opdrachten uitvoeren in een terminal om te controleren of alles goed werkt. Open een terminal (command prompt, powershell, etc.) **als administrator** en voer de volgende opdrachten uit:
+
+npm config set -L user strict-ssl=false
+npm config set -L user legacy-peer-deps=true
+npm config set -L user audit=false
+
+Je kunt bevestigen dat de opdrachten correct zijn uitgevoerd door het bestand te controleren: `C:\users\<jouw gebruikers naam>\.npmrc` (vervang <jouw gebruikersnaam> door je echte gebruikersnaam). Dit is een verborgen bestand, dus zorg ervoor dat je het weergeven van verborgen bestanden in Verkenner inschakelt.
+
+GitHub-repo downloaden:
+
+Je kunt deze stappen volgen om de GitHub-repo te downloaden. Als je weet hoe je met git kunt clonen kan je dat ook doen en kan je deze stappen skippen.
+
+Stap 0: Ga naar de hierboven genoemde URL
+Stap 1: Klik op het groene pictogram dat wordt weergegeven in "GitHub-Step-1"
+Stap 2: Klik op het tabblad "Local" dat wordt weergegeven in "GitHub-Step-2"
+Stap 3: Klik op de knop "Download ZIP" dat wordt weergegeven in "GitHub-Step-3"
