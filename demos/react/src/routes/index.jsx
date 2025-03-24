@@ -13,3 +13,9 @@ function Home() {
 		</div>
 	);
 }
+
+function Other() {
+	return (
+		<div>other</div>
+	)
+}

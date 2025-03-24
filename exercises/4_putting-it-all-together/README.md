@@ -12,9 +12,9 @@ Note that item data is completely randomly generated, titles and descriptions wi
 
 To finish this exercise you should follow these steps:
 
-1. Start by writing the home page. In `src/routes/home.jsx` you will find your starting point. You'll have to loop over
+1. Start by writing the home page. In `src/routes/index.jsx` you will find your starting point. You'll have to loop over
    the items to render each item. The data and routing to item detail pages is provided. You can also check
-   `src/routes/home.css` for some nice looking CSS that you can use.
+   `src/routes/index.css` for some nice looking CSS that you can use.
 2. Next, you will have to write the `item` page. The starting point for this can be found at `src/routes/item.jsx`. Once
    again styles are provided in `src/routes/item.css` that you can use.
 3. Make sure the router knows about navigating to the item page. Hint: Look at `src/main.jsx`.

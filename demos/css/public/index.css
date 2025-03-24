@@ -11,12 +11,51 @@ body {
 	font-size: 40px;
 }
 
+li {
+	color: blue;
+	list-style-type: square;
+}
+
+.button1 {
+
+
+	background-color: #e0e0e0;
+	color: #000;
+	padding: 1rem;
+	border-radius: 3px;
+}
+
+.button2 {
+	background-color: #0078d4;
+	color: #fff;
+	padding: 1rem;
+	border-radius: 3px;
+
+}
+
+.button3 {
+
+
+	background-color: red;
+	color: #fff;
+	padding: 1rem;
+	border-radius: 3px;
+}
+
 #name-input {
 	font-size: 40px;
 	border: none;
 	border-bottom: 2px solid #999;
 	outline: none;
 	margin-top: 1rem;
+}
+
+.me {
+	color: #0078d4;
+	background-color: #f0f0f0;
+	border: 1px solid #999;
+	border-radius: 5px;
+	padding: 0.5rem;
 }
 
 #name {

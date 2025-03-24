@@ -21,11 +21,14 @@ The application should have the following requirements:
 
 ## Hints
 
-1. You can ignore package.json, and package-lock.json. The index.js file is in the public directory and is already referenced in the index.html file
+1. You can ignore package.json, and package-lock.json. The index.js file is in the public directory and is already
+   referenced in the index.html file
 
-2. By default HTML values are always strings, if you make the input field a number field then you can use
+2. See the README.md in the root directory for many important links to know what things are possible in web development.
+
+3. By default HTML values are always strings, if you make the input field a number field then you can use
    `valueAsNumber` to get a number value of the input event, this makes it easier to do calculation with your input.
 
-3. Make sure to account for non number values
+4. Make sure to account for non number values
     - You can use `isNaN` (<https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/isNaN>) to
       check if a value is not a number.
