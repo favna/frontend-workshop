@@ -25,8 +25,7 @@ The application should have the following requirements:
 
 ## Hints
 
-1. It is recommended to download/clone this repository as a starting point for this exercise, the `index.html` and
-   `index.css` files in this folder are already set up for you.
+1. You can ignore package.json, and package-lock.json. The index.css file is in the public directory and is already referenced in the index.html file. You do not need to edit the index.html file.
 
 2. You should not need to use any JavaScript for this exercise, only CSS.
 

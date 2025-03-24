@@ -21,8 +21,7 @@ The application should have the following requirements:
 
 ## Hints
 
-1. It is recommended to download/clone this repository as a starting point for this exercise, the `index.html` and
-   `index.js` files in this folder are already set up for you.
+1. You can ignore package.json, and package-lock.json. The index.js file is in the public directory and is already referenced in the index.html file
 
 2. By default HTML values are always strings, if you make the input field a number field then you can use
    `valueAsNumber` to get a number value of the input event, this makes it easier to do calculation with your input.
